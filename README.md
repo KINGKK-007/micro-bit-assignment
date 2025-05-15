@@ -4,7 +4,7 @@
 
 ## Table of Contents
 - [Overview](#overview)
-- [Features](#features)
+- [Features](#features-of-jiosaavn-music-controller)
 - [Hardware Requirements](#hardware-requirements)
 - [Software Requirements](#software-requirements)
 - [Setup](#setup)
@@ -15,7 +15,7 @@
 - [Code Explanation](#code-explanation)
 - [Demonstration Videos](#demonstration-videos)
 - [Side Projects](#side-projects)
-- [Future Improvements](#future-improvements)
+- [Future Improvements](#future-improvements-in-jiosaavn-music-controller)
 - [Team Members](#team-members)
 
 ---
