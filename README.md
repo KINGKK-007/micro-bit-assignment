@@ -99,3 +99,22 @@ Additionally, three side projects are included:
 - Double-press B: Volume up.
 - Double-press A: Volume down.
 - LED icons on the Micro:bit confirm each action.
+
+## Project Structure
+
+├── microbit.py                # Micro:bit MicroPython script
+├── jiosavan_controller.py     # Serial-to-Selenium bridge
+├── jiosavan.py                # Selenium automation helper
+├── JioSaavn_Report.pdf        # Detailed project report
+└── README.md                  # This file
+
+## Code Explanation
+
+- **microbit.py**  
+  Detects button events and gestures, sends commands (`PLAY`, `NEXT`, `PREV`, `VOL_UP`, `VOL_DOWN`) over UART.
+
+- **jiosavan_controller.py**  
+  Opens serial port (115200 baud), listens for UART commands, and dispatches them to Selenium functions.
+
+- **jiosavan.py**  
+  Implements Selenium routines to control playback on JioSaavn (play/pause, skip, volume adjustments).
