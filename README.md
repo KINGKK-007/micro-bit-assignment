@@ -128,7 +128,7 @@ Additionally, three side projects are included:
 
 ## Code Explanation
 
-- [DetailedCodeExplanation.pdf](https://drive.google.com/file/d/1-tRX-3y9bqGs4DAnv0N1B6Pl2MKri8Ud/view?usp=share_link)
+- [DetailedCodeExplanation.pdf](https://drive.google.com/file/d/1zE5P4qjZQf6Rgx_8idhtDMlQqlzQO31r/view?usp=share_link)
 
 - **microbit.py**  
   Detects button events and gestures, sends commands (`PLAY`, `NEXT`, `PREV`, `VOL_UP`, `VOL_DOWN`) over UART.
@@ -161,9 +161,9 @@ Side Projects demo:
 
 | Project         | Description                                            | Project Report                                                                                               |
 |-----------------|--------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| Chrome Dino Game | Play Chrome’s offline dinosaur game via Micro:bit buttons. | [Chrome_Dino.pdf](https://drive.google.com/file/d/1GfbnPI2qqRzQFXjczvlgWyWPj0Vj7e_J/view?usp=share_link)           |
-| Digital Compass  | Real-time compass using the Micro:bit magnetometer and LEDs. | [Compass.pdf](https://drive.google.com/file/d/1uXZRCnBlLe97KueORwLwOkBkAegXOD_f/view?usp=sharing)           |
-| Memory Game     | Simon-says style memory challenge on the Micro:bit LED matrix. | [Memory_Game.pdf](https://drive.google.com/file/d/1CpypCTweukLDyuhZLQkP-RXxjaZ0s1BH/view?usp=sharing)           |
+| Chrome Dino Game | Play Chrome’s offline dinosaur game via Micro:bit buttons. | [Chrome_Dino.pdf](https://drive.google.com/file/d/1Zs9ngDU4sCXy9fKbArq8dUzWrYbvopii/view?usp=share_link)           |
+| Digital Compass  | Real-time compass using the Micro:bit magnetometer and LEDs. | [Compass.pdf](https://drive.google.com/file/d/10PsjcIPGswr_2n7VcZEgOKZuXkW8pIn8/view?usp=share_link)           |
+| Memory Game     | Simon-says style memory challenge on the Micro:bit LED matrix. | [Memory_Game.pdf](https://drive.google.com/file/d/1_qhKwC4cBMG9TGfOLywCbBu0vqccWMoh/view?usp=share_link)           |
 
 ---
 
@@ -179,12 +179,12 @@ Side Projects demo:
 
 | Name          | Roll Number | GitHub                                      | 
 |---------------|-------------|---------------------------------------------|
-| Ayush Patel   | BT2024054   | [GitHub](https://github.com/ayushpatel)  |
+| Ayush Patel   | BT2024054   | [Ayush-patel9](https://github.com/Ayush-patel9)  |
 | Kabir Ahuja   | BT2024004   | [Kabir646](https://github.com/Kabir646)        |
 | Kanav Kumar   | BT2024021   | [KINGKK-007](https://github.com/KINGKK-007)     |
 | Dayal Gupta   | BT2024167   | [DayalGupta03](https://github.com/DayalGupta03)     |
 | Parth Malhotra| BT2024197   | [GitHub](https://github.com/parthmalhotra)  |
-| Sachin Nain   | BT2024203   | [SachinSNain](https://github.com/SachinSNain)     |
+| Sachin Nain   | BT2024201   | [SachinSNain](https://github.com/SachinSNain)     |
 | Tanmay Dixit  | BT2024016   | [tdixit547](https://github.com/tdixit547)    |
 
 ---
