@@ -124,4 +124,4 @@ Additionally, three side projects are included:
 
 Main controller demo:
 
-[link to a video]([URL](https://drive.google.com/file/d/17tipGkDq-_PeUA8daU7xiVDqFFfhpIk-/view?usp=share_link))
+[link to a video](https://drive.google.com/file/d/17tipGkDq-_PeUA8daU7xiVDqFFfhpIk-/view?usp=share_link)
