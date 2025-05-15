@@ -76,3 +76,26 @@ Additionally, three side projects are included:
    ```bash
    git clone https://github.com/<your-username>/<repo-name>.git
    cd <repo-name>
+
+2. Install dependencies:
+   ```bash
+   pip install selenium pyserial
+3. Place chromedriver in your PATH or project root.
+4. Update the serial port in jiosavan_controller.py (e.g., COM9 or /dev/ttyACM0).
+
+## Usage
+
+1. Connect your **Micro:bit** to your PC via USB.
+
+2. Run the controller script:
+
+   ```bash
+   python jiosavan_controller.py
+3. Open **Chrome** and navigate to [JioSaavn](https://www.jiosaavn.com).
+4. Use the Micro:bit controls:
+🤝 Shake: Play/Pause
+🔘 Press B: Next track
+🔘 Press A: Previous track or Restart (depends on single vs. double press)
+🔘 Double-press B: Volume up
+🔘 Double-press A: Volume down
+💡 LED icons on the Micro:bit confirm each action
