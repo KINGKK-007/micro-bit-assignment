@@ -24,7 +24,7 @@
 
 This repository contains a Micro:bit v2–based controller for the [JioSaavn](https://www.jiosaavn.com) web music player. The Micro:bit reads button presses and gestures, sends commands over USB serial to a Python/Selenium script on your PC, and automates playback controls (play/pause, next/previous track, volume up/down) on JioSaavn’s Chrome web interface.
 
-Project Report : [JioSaavnMusicController_Report.pdf](https://drive.google.com/file/d/1JNTrQSUfPg2VnSIRVZ11Q-pMMHzhOtIT/view?usp=share_link)
+Project Report : [JioSaavnMusicController_Report.pdf](https://drive.google.com/file/d/1zE5P4qjZQf6Rgx_8idhtDMlQqlzQO31r/view?usp=share_link)
 
 Additionally, three side projects are included:
 1. **Chrome Dino Game** – Play the offline dinosaur game using Micro:bit button controls.
@@ -128,7 +128,7 @@ Additionally, three side projects are included:
 
 ## Code Explanation
 
-- [DetailedCodeExplanation.pdf](https://drive.google.com/file/d/1zE5P4qjZQf6Rgx_8idhtDMlQqlzQO31r/view?usp=share_link)
+- [DetailedCodeExplanation.pdf](https://drive.google.com/file/d/1ZGNi9K9JTrZWPow3aehLs1hTfN2xkPSe/view?usp=share_link)
 
 - **microbit.py**  
   Detects button events and gestures, sends commands (`PLAY`, `NEXT`, `PREV`, `VOL_UP`, `VOL_DOWN`) over UART.
