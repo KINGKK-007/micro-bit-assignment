@@ -24,6 +24,8 @@
 
 This repository contains a Micro:bit v2–based controller for the [JioSaavn](https://www.jiosaavn.com) web music player. The Micro:bit reads button presses and gestures, sends commands over USB serial to a Python/Selenium script on your PC, and automates playback controls (play/pause, next/previous track, volume up/down) on JioSaavn’s Chrome web interface.
 
+Project Report : [JioSaavnMusicController_Report.pdf](https://drive.google.com/file/d/1JNTrQSUfPg2VnSIRVZ11Q-pMMHzhOtIT/view?usp=share_link)
+
 Additionally, three side projects are included:
 1. **Chrome Dino Game** – Play the offline dinosaur game using Micro:bit button controls.
 2. **Digital Compass** – Real-time compass using the Micro:bit’s magnetometer and LED display.
