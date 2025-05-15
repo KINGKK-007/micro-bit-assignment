@@ -93,9 +93,9 @@ Additionally, three side projects are included:
    python jiosavan_controller.py
 3. Open **Chrome** and navigate to [JioSaavn](https://www.jiosaavn.com).
 4. Use the Micro:bit controls:
-🤝 Shake: Play/Pause
-🔘 Press B: Next track
-🔘 Press A: Previous track or Restart (depends on single vs. double press)
-🔘 Double-press B: Volume up
-🔘 Double-press A: Volume down
-💡 LED icons on the Micro:bit confirm each action
+- Shake: Play/Pause.
+- Press B: Next track.
+- Press A: Previous track or Restart (depends on single vs. double press).
+- Double-press B: Volume up.
+- Double-press A: Volume down.
+- LED icons on the Micro:bit confirm each action.
