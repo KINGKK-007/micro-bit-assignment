@@ -102,11 +102,11 @@ Additionally, three side projects are included:
 
 ## Project Structure
 
-<pre> ```├── microbit.py                # Micro:bit MicroPython script
+<pre>├── microbit.py                # Micro:bit MicroPython script
 ├── jiosavan_controller.py     # Serial-to-Selenium bridge
 ├── jiosavan.py                # Selenium automation helper
 ├── JioSaavn_Report.pdf        # Detailed project report
-└── README.md                  # This file``` </pre>
+└── README.md                  # This file</pre>
 
 ## Code Explanation
 
