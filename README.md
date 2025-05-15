@@ -1,6 +1,6 @@
 ![Micro:bit](https://img.shields.io/badge/Device-Micro:bit%20v2-blue) ![Python](https://img.shields.io/badge/Language-Python3-green)
 
-# JioSaavn Music Controller
+# Micro:Bit Assignment {Computer Architecture/EGC 121}
 
 ## Table of Contents
 - [Overview](#overview)
@@ -13,11 +13,10 @@
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Code Explanation](#code-explanation)
-- [Demonstration](#demonstration)
+- [Demonstration Videos](#demonstration-videos)
 - [Side Projects](#side-projects)
 - [Future Improvements](#future-improvements)
 - [Team Members](#team-members)
-- [License](#license)
 
 ---
 
@@ -32,12 +31,12 @@ Additionally, three side projects are included:
 
 ---
 
-## Features
+## Features of JioSaavn Music Controller
 
 - **Play/Pause** via shake gesture
+- **Restart Track** (press A)
 - **Next Track** (press B)
-- **Previous Track** (press A)
-- **Restart Track** (single press A)
+- **Previous Track** (press A just after restarting) 
 - **Volume Up** (double-press B)
 - **Volume Down** (double-press A)
 - LED feedback icons for each command
@@ -74,14 +73,16 @@ Additionally, three side projects are included:
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/<KINGKK-007>/<micro-bit-assignment>.git
+   cd <micro-bit-assignment>
 
 2. Install dependencies:
    ```bash
    pip install selenium pyserial
 3. Place chromedriver in your PATH or project root.
 4. Update the serial port in jiosavan_controller.py (e.g., COM9 or /dev/ttyACM0).
+
+---
 
 ## Usage
 
@@ -100,15 +101,32 @@ Additionally, three side projects are included:
 - Double-press A: Volume down.
 - LED icons on the Micro:bit confirm each action.
 
+---
+
 ## Project Structure
 
-<pre>├── microbit.py                # Micro:bit MicroPython script
-├── jiosavan_controller.py     # Serial-to-Selenium bridge
-├── jiosavan.py                # Selenium automation helper
-├── JioSaavn_Report.pdf        # Detailed project report
-└── README.md                  # This file</pre>
+<pre>├── JioSaavnMusicController/
+│ ├── microbit.py                  # Micro:bit MicroPython script 
+│ ├── jiosavan.py                  # Selenium automation helper
+│ ├── jiosavan_controller.py       # Serial-to-Selenium bridge
+│ ├── JioSaavn_Report.pdf          # JioSaavn project report
+│ └── DetailedCodeExplanations.pdf # Detailed explanation of main controller code
+│
+├── SideHustles/
+│ ├── chrome_dino.py               # Chrome Dino control script
+│ ├── Chrome_Dino.pdf              # Chrome Dino project report
+│ ├── compass.py                   # Digital Compass control script
+│ ├── Compass.pdf                  # Digital Compass project report
+│ ├── memory_game.py               # Memory Game logic script
+│ └── Memory_Game.pdf              # Memory Game project report
+│
+└── README.md                      # This file</pre>
+
+---
 
 ## Code Explanation
+
+- [DetailedCodeExplanation.pdf](https://drive.google.com/file/d/1-tRX-3y9bqGs4DAnv0N1B6Pl2MKri8Ud/view?usp=share_link)
 
 - **microbit.py**  
   Detects button events and gestures, sends commands (`PLAY`, `NEXT`, `PREV`, `VOL_UP`, `VOL_DOWN`) over UART.
@@ -119,9 +137,52 @@ Additionally, three side projects are included:
 - **jiosavan.py**  
   Implements Selenium routines to control playback on JioSaavn (play/pause, skip, volume adjustments).
 
+---
 
-## Demonstration
+## Demonstration Videos 
 
 Main controller demo:
 
-[link to a video](https://drive.google.com/file/d/17tipGkDq-_PeUA8daU7xiVDqFFfhpIk-/view?usp=share_link)
+- [JioSaavn Music Controller Working](https://drive.google.com/file/d/17tipGkDq-_PeUA8daU7xiVDqFFfhpIk-/view?usp=share_link)
+
+Side Projects demo:
+
+- [Memory Game Working](https://drive.google.com/file/d/1PsbJtFaRprxVQib4Qu50ni7nIJhfd5Ud/view?usp=share_link)
+
+- [Chrome Dino Working](https://drive.google.com/file/d/1vZhc-wmto0BQOWm81tPAqW0lz1AOGBVR/view?usp=share_link)
+
+- [Compass Working](https://drive.google.com/file/d/13PJoXrYQ3vEFnqC_ez0mqVcEbzZqfWS9/view?usp=share_link)
+
+---
+
+## Side Projects
+
+| Project         | Description                                            | Project Report                                                                                               |
+|-----------------|--------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Chrome Dino Game | Play Chrome’s offline dinosaur game via Micro:bit buttons. | [Chrome_Dino.pdf](https://drive.google.com/file/d/1GfbnPI2qqRzQFXjczvlgWyWPj0Vj7e_J/view?usp=share_link)           |
+| Digital Compass  | Real-time compass using the Micro:bit magnetometer and LEDs. | [Compass.pdf](https://drive.google.com/file/d/1uXZRCnBlLe97KueORwLwOkBkAegXOD_f/view?usp=sharing)           |
+| Memory Game     | Simon-says style memory challenge on the Micro:bit LED matrix. | [Memory_Game.pdf](https://drive.google.com/file/d/1CpypCTweukLDyuhZLQkP-RXxjaZ0s1BH/view?usp=sharing)           |
+
+---
+
+## Future Improvements in JioSaavn Music Controller
+
+- **Wireless BLE:** Swap USB serial for Bluetooth LE.
+- **Gesture Volume:** Tilt-based continuous volume control.
+- **LED Feedback:** Show track titles or volume levels on the LED matrix.
+
+---
+
+## Team Members
+
+| Name          | Roll Number | GitHub                                      | 
+|---------------|-------------|---------------------------------------------|
+| Ayush Patel   | BT2024054   | [GitHub](https://github.com/ayushpatel)  |
+| Kabir Ahuja   | BT2024004   | [Kabir646](https://github.com/Kabir646)        |
+| Kanav Kumar   | BT2024021   | [KINGKK-007](https://github.com/KINGKK-007)     |
+| Dayal Gupta   | BT2024167   | [DayalGupta03](https://github.com/DayalGupta03)     |
+| Parth Malhotra| BT2024197   | [GitHub](https://github.com/parthmalhotra)  |
+| Sachin Nain   | BT2024203   | [SachinSNain](https://github.com/SachinSNain)     |
+| Tanmay Dixit  | BT2024016   | [tdixit547](https://github.com/tdixit547)    |
+
+---
