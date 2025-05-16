@@ -183,7 +183,7 @@ Side Projects demo:
 | Kabir Ahuja   | BT2024004   | [Kabir646](https://github.com/Kabir646)        |
 | Kanav Kumar   | BT2024021   | [KINGKK-007](https://github.com/KINGKK-007)     |
 | Dayal Gupta   | BT2024167   | [DayalGupta03](https://github.com/DayalGupta03)     |
-| Parth Malhotra| BT2024197   | [GitHub](https://github.com/parthmalhotra)  |
+| Parth Malhotra| BT2024197   | [ParthMalhotra07](https://github.com/ParthMalhotra07)  |
 | Sachin Nain   | BT2024201   | [SachinSNain](https://github.com/SachinSNain)     |
 | Tanmay Dixit  | BT2024016   | [tdixit547](https://github.com/tdixit547)    |
 
