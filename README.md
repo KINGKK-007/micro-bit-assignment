@@ -2,6 +2,8 @@
 
 # Micro:Bit Assignment {Computer Architecture/EGC 121}
 
+![JioSaavn Music Controller](JioSaavnMusicController/image/mypic.png)
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features-of-jiosaavn-music-controller)
